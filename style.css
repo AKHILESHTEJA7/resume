@@ -15,7 +15,7 @@ body{
 }
 .heading{
     color: white;
-    background-color: rgba(1, 69, 46, 0);
+    background-color: transparent;
     position: relative;
     font-family: 'Georgia';
     top: -490px;
@@ -152,4 +152,17 @@ hr{
     width: 70px;
     top: 46px;
     left: 80px
+}
+#kuy{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 3px double rgb(238, 0, 255);
+    border-radius: 25px;
+    position: absolute;
+    top:500px;
+    left: 600px;
+}
+#nom{
+    color: rgb(195, 0, 255);
 }

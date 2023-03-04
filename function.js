@@ -13,3 +13,17 @@ function on3(){
 function on4(){
     document.getElementById("chan").innerHTML="LOCATION: 28-51,OPPSITE TO KANYAKAPRAMESWARI TEMPLE,MAIN ROAD,ADDANKI.(523201)<br>CONTACT: 9491004473";
 }
+var x=0;
+function job(){
+    if(x==0){
+        document.getElementById("photo").style.display="none";
+    document.getElementById("kuy").innerHTML="see me";
+    x=1;
+}
+else{
+    document.getElementById("photo").style.display="inline";
+    document.getElementById("kuy").innerHTML="hide me";
+    x=0;
+}
+    }
+    
